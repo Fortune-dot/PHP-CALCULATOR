@@ -5,10 +5,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PHP Calculator</title>
+    <link rel="icon" href="./calc.png" type="image/x-icon">
 </head>
 <style>
 * {
     font-family: sans-serif;
+    background-color: #f1faee;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container {
@@ -50,21 +59,26 @@ button {
     box-shadow: grey 12px;
 }
 
-
+.hero {
+    display: flex;
+    flex-direction: row;
+}
 
 .answer {
     color: green;
     font-size: 30px;
 }
-
-
-
 </style>
 
 <body>
-    <center>
-        <h1 class="hero">Php Calculator🚀🚀🔥</h1>
-    </center>
+
+    <div class="hero">
+        <center>
+            <h1>Php Calculator </h1>
+        </center>
+        <center><img src="./calc.png" alt="your browser sucks" height="100px" width="100px"></center>
+    </div>
+
 
     <div class="container">
         <form method="GET">
